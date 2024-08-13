@@ -37,4 +37,5 @@ public class Product {
 		this.stock -= number;
 		System.out.println(this.name +"残りの在庫は"+this.stock);
 	}
+
 }

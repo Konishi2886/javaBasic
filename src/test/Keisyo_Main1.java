@@ -7,9 +7,9 @@ public class Keisyo_Main1 {
 		Keisyo_Konishi1 konishi = new Keisyo_Konishi1();
 		
 		//体重を設定する
-		konishi.weight = 60;
+		konishi.weight = 62;
 		//慎重を設定する
-		konishi.height = 1.75;
+		konishi.height = 1.756;
 		
 		//BMIを計算する
 		double bmi = konishi.calcBmi(konishi.weight,konishi.height);

@@ -91,7 +91,7 @@ import java.util.Scanner;
 public class work4_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Game1 game = new Game1(scanner);
+        Game2 game = new Game2(scanner);
         game.start();
         scanner.close();
     }
@@ -139,7 +139,7 @@ class Game1 {
     private Scanner scanner;
 
     public Game1(Scanner scanner) {
-        player = new Player1("あなた");
+        player = new Player1("a");
         random = new Random();
         this.scanner = scanner;
     }
